@@ -2,7 +2,6 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
-
 .full_logo {
   position: relative;
   left: 0;
@@ -14,6 +13,11 @@
   top: 0;
   left: 0;
   width: 70%;
+  transition: transform .7s ease-in-out;
+
+  &:hover {
+    transform: rotate(10deg);
+  }
 }
 
 .background {
