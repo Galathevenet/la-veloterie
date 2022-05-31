@@ -8,40 +8,49 @@
 //   top: 0;
 // }
 
-.tool {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 70%;
-  transition: transform .7s ease-in-out;
+// .tool {
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   width: 70%;
+//   transition: transform .7s ease-in-out;
 
-  &:hover {
-    transform: rotate(10deg);
-  }
+//   &:hover {
+//     transform: rotate(10deg);
+//   }
+// }
+
+// .background {
+//   position: relative;
+//   top: 0;
+//   left: 0;
+//   width: 70%;
+// }
+
+// .background1 {
+//   position: relative;
+//   top: 0;
+//   left: 0;
+//   width: 70%;
+// }
+
+// .tool1 {
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   width: 70%;
+//   transition: transform .7s ease-in-out;
+
+//   &:hover {
+//     transform: rotate(10deg);
+//   }
+// }
+
+.logo {
+  height: 100vh;
 }
 
-.background {
-  position: relative;
-  top: 0;
-  left: 0;
-  width: 70%;
-}
-
-.background1 {
-  position: relative;
-  top: 0;
-  left: 0;
-  width: 70%;
-}
-
-.tool1 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 70%;
-  transition: transform .7s ease-in-out;
-
-  &:hover {
-    transform: rotate(10deg);
-  }
+.welcome {
+  display: flex;
+  justify-content: center;
 }
